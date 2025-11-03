@@ -1,10 +1,10 @@
 x= int(input("you age please: "))
 
-if 0<x<12:
+if 0<x<=12:
     print("child")
-elif 12<x<17:
+elif 12<x<=17:
 	print("teenager")
-elif 17<x<64:
+elif 17<x<=64:
 	print("Adult")
     
 else:
@@ -24,5 +24,5 @@ z= int(input("enter a number:"))
 if z%5==0:
 	print(z,"is divisible by 5")
 else:print(z,"is not divisible by 5")
-    {}
+    
 
