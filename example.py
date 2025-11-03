@@ -24,10 +24,5 @@ z= int(input("enter a number:"))
 if z%5==0:
 	print(z,"is divisible by 5")
 else:print(z,"is not divisible by 5")
-    
-    
-    
-import http.client
-
-conn = http.client.HTTPSC
+    {}
 
